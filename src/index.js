@@ -13,7 +13,7 @@ module.exports = function count(s, pairs) {
     for (let y = 0; y != multy; y++) {
         localCount = 0;
         for (let e = 0; e < s.length; e++) {
-            if(countner > 100000){break}
+            if(countner > 10000000){break}
             var noda = nod(multy, y + e);
             if (s[e] == "0" && noda != 1) {
                 localCount++;
