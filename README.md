@@ -12,6 +12,9 @@ function count(s, pairs) {
 *As first argument* you will take bit mask in string `s` (can contains only `1` or `0`).
 *As second argument* you will take array of pairs (array, which contain many arrays with length equal 2). Each `pairs[q][0] !== pairs[w][0]` and each `pairs[h][0]` is prime.
 
+В качестве первого аргумента * вы берете бит-маску в строке `s` (может содержать только` 1` или `0`).
+* В качестве второго аргумента * вы возьмете массив пар (массив, который содержит много массивов с длиной, равной 2). Каждая пара пар [q] [0]! == [w] [0] `и каждая пара [h] [0]` является простой.
+
 Let's define number `N`
 ```js
   N = (pairs[0][0] ** pairs[0][1]) *
